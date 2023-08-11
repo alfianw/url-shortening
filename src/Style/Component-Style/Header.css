@@ -1,0 +1,11 @@
+header{
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#imgHeader{
+    width: 600px;
+}
