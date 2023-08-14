@@ -1,0 +1,42 @@
+.footerLink{
+    background-color: rgb(13, 1, 22);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding: 50px 100px;
+    box-sizing: border-box;
+}
+
+.cardFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardFooter1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#linkFooter{
+    text-decoration: none;
+    color: rgb(168, 168, 168);
+}
+
+#linkFooter:hover{
+    color: rgb(27, 163, 163);
+}
+
+#imgFooter {
+    filter: brightness(1);
+    transition: filter 0.3s; 
+  }
+  
+  #imgFooter:hover {
+    filter: brightness(0.5); 
+  }

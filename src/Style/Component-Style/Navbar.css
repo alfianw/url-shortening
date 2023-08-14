@@ -4,7 +4,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 0 80px;
     box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ nav{
 }
 
 .navWarp>h1{
-    font-weight: 400;
+    font-weight: 600;
     font-size: 30px;
     
 }
