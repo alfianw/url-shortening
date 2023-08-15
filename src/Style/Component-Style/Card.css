@@ -1,0 +1,45 @@
+.containerCard{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 80px 30px 80px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+#linkCard{
+    color: rgb(0, 141, 141);
+    font-weight: 600;
+    text-overflow: ellipsis;
+}
+
+#btnCardLink{
+    cursor: pointer;
+    color: white;
+    background-color:rgb(0, 141, 141) ;
+    width: 70px;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+}
+
+#btnCardLink:hover{
+    background-color: rgb(115, 194, 194);
+}
+
+#btnCardLink.copied{
+background-color: rgb(5, 58, 58) ;
+}

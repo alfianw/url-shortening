@@ -8,14 +8,7 @@
     position: relative;
 }
 
-.line{
-    box-sizing: border-box;
-    position: absolute;
-    height: 7px;
-    width: 600px;
-    background-color: rgb(12, 155, 155);
-    top: 450px;
-}
+
 
 .containerDetail1 {
     width: 500px;
@@ -39,6 +32,17 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.line{
+    box-sizing: border-box;
+    position: absolute;
+    height: 7px;
+    width: 800px;
+    background-color: rgb(12, 155, 155);
+    top: 130px;
 }
 
 .cardDetail1{

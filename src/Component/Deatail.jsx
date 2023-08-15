@@ -9,12 +9,12 @@ const Detail = () => {
     return (
         <div className="detail">
             <Search />
-            <div className="line"></div>
             <div className="containerDetail1">
                 <h1>Advanced Statistics</h1>
                 <p>Track how your links are performing across the web with our Advanced statistics dashboard.</p>
             </div>
             <div className="containerDetail2">
+                <div className="line"></div>
                 <div className="cardDetail1" id="card1">
                     <div className="warpImg">
                         <img src={brand} alt="" id="imgDetail" />
